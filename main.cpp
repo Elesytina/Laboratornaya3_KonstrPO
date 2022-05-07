@@ -1,6 +1,12 @@
-#include <iostream>
+
+#include <iostream>
+using namespace std;
 int main() {
-	std::cout << "Hello world!\n";
+	char name[20];
+	cout << "Enter your name: ";
+	cin >> name;
+	cout << "Hello, " << name << "! Have a nice day! " << endl;
+	cout << "Nice to see you learning Git\n";
 	system("pause");
 	return 0;
-}
+}
